@@ -37,6 +37,7 @@ aside, main section {
 	box-shadow: 0px 0px 8px 8px #f5adbe;
 	flex: 3;
 	margin-right: 15px;
+	margin-bottom: auto;
 
 }
 
@@ -45,9 +46,21 @@ main {
 }
 
 main #first-section {
+	margin-bottom: auto;
+}
+
+main #second-section {
 	margin-bottom: 50px;
 }
 
+main #third-section {
+	margin-top: 50px;
+	align-items: center;
+	margin-left: auto;
+	margin-bottom: 50px;
+	width: auto;
+
+}
 .personal-img {
 	width: 100%;
   	height: auto;
@@ -146,19 +159,6 @@ main #first-section {
 	font-weight: bold;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #29161b;;
-    background-color: #f5adbe;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #f5adbe;
-}
-
 
 .green-span {
 	background-color:#f5adbe;
@@ -195,18 +195,5 @@ footer a {
 	color: white;
 	text-decoration: none;
 	font-size: 1.2vw;
-}
-
-body {
-    background-image: url(https://i.pinimg.com/736x/4b/62/04/4b6204d369c8043d25419458d00dfbb9.jpg);
-	padding: 50px 0px 0px 0px;
-}
-
-aside, main section {
-	background-color: #ffffff;
-	border: 1px solid #ffd1dc;
-	box-shadow: 0px 0px 8px 8px #f5adbe;
-	flex: 3;
-	margin-right: 15px;
 
 }
